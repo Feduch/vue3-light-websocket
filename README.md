@@ -4,7 +4,7 @@ A simple native reconnecting websocket client for Vue.js.
 
 __If you like or use this project, please consider supporting my work. Thanks! 🙏🏼__
 
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="FedorBuzinov" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+<a href="https://www.buymeacoffee.com/FedorBuzinov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" width=217 height=51 style="height: 51px !important;width: 217px !important;"></a>
 
 # Install
 
