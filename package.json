@@ -2,8 +2,8 @@
   "name": "vue-light-websocket",
   "version": "0.0.1",
   "description": "A simple native reconnecting websocket for Vue.js",
-  "main": "dist/VueSimpleWebSocket.js",
-  "module": "dist/VueSimpleWebSocket.module.js",
+  "main": "dist/VueLightWebSocket.js",
+  "module": "dist/VueLightWebSocket.module.js",
   "homepage": "https://github.com/Feduch/vue-light-websocket",
   "repository": "github:Feduch/vue-light-websocket",
   "scripts": {
