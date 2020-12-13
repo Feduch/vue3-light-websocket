@@ -1,6 +1,7 @@
 export default class WebSocketClient {
   constructor (url, options) {
     this.instance = null
+    this.isConnected = false
     this.url = url
     this.options = options || this.defaultOptions()
     if (this.options) {
@@ -30,6 +31,7 @@ export default class WebSocketClient {
     // Each event handler also calls the corresponding class method, which can be defined by the component
     this.instance.onopen = () => {
       if (typeof this.onOpen === 'function') {
+        this.isConnected = true
         this.onOpen()
       }
     }
@@ -39,6 +41,7 @@ export default class WebSocketClient {
       }
     }
     this.instance.onclose = (evt) => {
+      this.isConnected = true
       if (typeof this.onClose === 'function') {
         this.onClose(evt)
       }
