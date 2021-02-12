@@ -5,8 +5,8 @@ export default [
   {
     input: 'src/Main.js',
     output: {
-      file: 'dist/VueLightWebSocket.module.js',
-      name: 'VueLightWebSocket',
+      file: 'dist/Vue3LightWebSocket.module.js',
+      name: 'Vue3LightWebSocket',
       format: 'esm',
       sourcemap: true
     },
@@ -20,8 +20,8 @@ export default [
   {
     input: 'src/Main.js',
     output: {
-      file: 'dist/VueLightWebSocket.js',
-      name: 'VueLightWebSocket',
+      file: 'dist/Vue3LightWebSocket.js',
+      name: 'Vue3LightWebSocket',
       format: 'cjs',
       sourcemap: true
     },
