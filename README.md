@@ -1,4 +1,4 @@
-# vue-light-websocket
+# vue3-light-websocket
 
 A simple native reconnecting websocket client for Vue.js.
 
@@ -9,7 +9,7 @@ __If you like or use this project, please consider supporting my work. Thanks! ð
 # Install
 
 ```
-npm install vue-simple-websocket --save
+npm install vue3-simple-websocket --save
 ```
 
 # Basic Usage
@@ -18,13 +18,13 @@ In the Vue app entry file `main.js`
 ```js
 import VueSimpleWebSocket from 'vue-simple-websocket'
 
-Vue.use(VueSimpleWebSocket, 'wss://echo.websocket.org')
+app.use(VueSimpleWebSocket, 'wss://echo.websocket.org')
 ```
 
 # Enable Reconnection
 In the Vue app entry file `main.js`
 ```js
-Vue.use(VueSimpleWebSocket, 'wss://echo.websocket.org', {
+app.use(VueSimpleWebSocket, 'wss://echo.websocket.org', {
     connectManually: true,
     reconnectEnabled: true,
     reconnectInterval: 5000 // time to reconnect in milliseconds
