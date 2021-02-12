@@ -1,6 +1,6 @@
 {
   "name": "vue3-light-websocket",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A simple native reconnecting websocket for Vue.js 3",
   "main": "dist/VueLightWebSocket.js",
   "module": "dist/VueLightWebSocket.module.js",
