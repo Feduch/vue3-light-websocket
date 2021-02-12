@@ -1,16 +1,16 @@
 {
   "name": "vue3-light-websocket",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "A simple native reconnecting websocket for Vue.js 3",
-  "main": "dist/VueLightWebSocket.js",
-  "module": "dist/VueLightWebSocket.module.js",
+  "main": "dist/Vue3LightWebSocket.js",
+  "module": "dist/Vue3LightWebSocket.module.js",
   "homepage": "https://github.com/Feduch/vue3-light-websocket",
   "repository": "github:Feduch/vue3-light-websocket",
   "scripts": {
     "clean": "rimraf dist",
     "build": "NODE_ENV=production rollup -c",
     "test": "NODE_ENV=test jest",
-    "version": "yarn build && git add dist/VueLightWebSocket.js dist/VueLightWebSocket.module.js",
+    "version": "yarn build && git add dist/Vue3LightWebSocket.js dist/Vue3LightWebSocket.module.js",
     "postversion": "git push && git push --tags"
   },
   "keywords": [
