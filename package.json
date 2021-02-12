@@ -1,11 +1,11 @@
 {
-  "name": "vue-light-websocket",
+  "name": "vue3-light-websocket",
   "version": "0.0.8",
-  "description": "A simple native reconnecting websocket for Vue.js",
+  "description": "A simple native reconnecting websocket for Vue.js 3",
   "main": "dist/VueLightWebSocket.js",
   "module": "dist/VueLightWebSocket.module.js",
-  "homepage": "https://github.com/Feduch/vue-light-websocket",
-  "repository": "github:Feduch/vue-light-websocket",
+  "homepage": "https://github.com/Feduch/vue3-light-websocket",
+  "repository": "github:Feduch/vue3-light-websocket",
   "scripts": {
     "clean": "rimraf dist",
     "build": "NODE_ENV=production rollup -c",
@@ -14,10 +14,10 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [
-    "Vue.js",
-    "vuejs",
+    "Vue.js 3",
+    "vuejs 3",
     "socket",
-    "vue",
+    "vue 3",
     "websocket",
     "realtime",
     "Nuxtjs",
@@ -44,7 +44,7 @@
     "rollup": "^0.66.2",
     "rollup-plugin-babel": "^4.0.1",
     "rollup-plugin-babel-minify": "^6.0.0",
-    "vue": "^2.6.12"
+    "vue": "^3.0.5"
   },
   "dependencies": {}
 }

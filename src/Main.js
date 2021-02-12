@@ -1,13 +1,12 @@
 import WebSocketClient from './WebSocketClient'
 
 export default {
-
-  install (Vue, connection, options={}) {
+  install (app, connection, options = {}) {
     const socketClient = new WebSocketClient(connection, options)
     if (!options.connectManually) {
       socketClient.connect()
     }
-    Vue.prototype.$socketClient = socketClient
+    app.config.globalProperties.$socket = socketClient
+    app.provide('socket', socketClient)
   }
-
 }
